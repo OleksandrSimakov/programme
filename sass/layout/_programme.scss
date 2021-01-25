@@ -1,0 +1,7 @@
+body {
+  counter-reset: semester;
+}
+.programme__item::after {
+  counter-increment: semester;
+  content: "cеместр " counter(semester);
+}
