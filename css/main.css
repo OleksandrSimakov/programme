@@ -103,4 +103,12 @@ body {
   counter-increment: semester;
   content: "cеместр " counter(semester);
 }
+
+.semester-list__item::before {
+  content: ".";
+}
+
+.semester-list::before {
+  content: "";
+}
 /*# sourceMappingURL=main.css.map */
