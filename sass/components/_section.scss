@@ -1,29 +1,29 @@
 .section {
   padding-top: 50px;
   padding-bottom: 537px;
-  &__heading {
-    text-align: center;
-    font-weight: 800;
-    line-height: 1.3;
-    font-size: 20px;
-  }
+  // &__heading {
+  //   text-align: center;
+  //   font-weight: 800;
+  //   line-height: 1.3;
+  //   font-size: 20px;
+  // }
 }
 @media screen and (min-width: $tablet) {
   .section {
     padding-top: 60px;
     padding-bottom: 392px;
-    &__heading {
-      font-size: 26px;
-      text-align: initial;
-    }
+    // &__heading {
+    //   font-size: 26px;
+    //   text-align: initial;
+    // }
   }
 }
 @media screen and (min-width: $desktop) {
   .section {
     padding-top: 120px;
     padding-bottom: 363px;
-    &__heading {
-      font-size: 43px;
-    }
+    // &__heading {
+    //   font-size: 43px;
+    // }
   }
 }
