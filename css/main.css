@@ -69,10 +69,10 @@ p {
   }
 }
 
-@media screen and (min-width: 1316px) {
+@media screen and (min-width: 1344px) {
   .container {
-    max-width: 1316px;
-    padding: 0px 183px;
+    max-width: 1344px;
+    padding: 0px 15px;
   }
 }
 
@@ -88,7 +88,7 @@ p {
   }
 }
 
-@media screen and (min-width: 1316px) {
+@media screen and (min-width: 1344px) {
   .section {
     padding-top: 120px;
     padding-bottom: 363px;
