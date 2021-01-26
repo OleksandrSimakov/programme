@@ -1,7 +1,7 @@
 body {
   counter-reset: semester;
 }
-.programme__semester-item::before {
+.semester-list__item::before {
   counter-increment: semester;
   content: "cеместр " counter(semester);
 }
